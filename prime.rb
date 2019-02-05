@@ -3,12 +3,11 @@ def prime?(x)
   if x <= 1
     return false
   
-  if x > 1
+  elsif x > 1
     let i = 2
     while i < x
       if x % i == 0 
        return false
-      end
       i++
     end
   return true

@@ -5,4 +5,7 @@ def prime?(x)
   
   let i = 0
   while i < x
-    if 
+    if x % i == 0 
+      return false
+    i++
+  

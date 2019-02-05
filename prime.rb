@@ -8,6 +8,6 @@ def prime?(x)
         return false
     if x == i
       return true 
+      break
   end
-  break
 end

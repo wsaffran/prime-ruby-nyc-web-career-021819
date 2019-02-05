@@ -1,14 +1,11 @@
 def prime?(x)
-  
-  if x <= 1
-    return false
-  
-  if x > 1
-    let i = 2
-    while i < x
+  i = 0
+  while i < x
+    if x <= 1
+      return false
+    if x > 1
       if x % i == 0 
-       return false
-      i++
-    return true
-  end
+        return false
+    if x = i
+  
 end

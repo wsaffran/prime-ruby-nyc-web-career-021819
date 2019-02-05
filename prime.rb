@@ -1,5 +1,7 @@
 def prime?(x)
-  is_prime = true
+  
+  is_prime = true         # starting boolean variable
+  
   if x <= 1
     is_prime = false
   end

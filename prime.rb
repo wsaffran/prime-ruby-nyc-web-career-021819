@@ -11,6 +11,6 @@ def prime?(x)
       break
     else 
       i++
-    
+    end
   end
 end

@@ -9,6 +9,6 @@ def prime?(x)
       if x % i == 0 
        return false
       i++
-    end
+  end
   return true
 end

@@ -9,5 +9,5 @@ def prime?(x)
     if x == i
       return true 
   end
-  
+  break
 end
